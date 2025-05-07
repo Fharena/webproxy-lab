@@ -228,8 +228,6 @@ void get_filetype(char *filename, char *filetype)
     strcpy(filetype, "image/jpeg");
   else if (strstr(filename, ".png"))
     strcpy(filetype, "image/png");
-  else if (strstr(filename, ".css"))
-    strcpy(filetype, "text/css");
   else if (strstr(filename, ".js"))
     strcpy(filetype, "application/javascript");
   else if (strstr(filename, ".ico"))
